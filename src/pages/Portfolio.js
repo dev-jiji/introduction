@@ -2,8 +2,9 @@ import React from "react";
 
 const Portfolio = () => {
     return (
-        <section className="portfolio">
+        <section className="portfolio scroll">
             <div className="inner">
+                {/* 개발 담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 > 프론트)) */}
                 <h2>Portfolio</h2>
                 <div className="contents">
                     {/* 팀프로젝트 */}

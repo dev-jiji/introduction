@@ -2,8 +2,9 @@ import React from "react";
 
 const Skills = () => {
     return (
-        <section className="skills">
+        <section className="skills scroll">
             <div className="inner">
+                {/* 기술적 역량 : 기술적 내용 설명, 자격증, 운전면허 등 */}
                 <h2>Skills</h2>
                 <div className="contents">
                     <ul className="skills-list">
