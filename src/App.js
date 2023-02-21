@@ -11,6 +11,9 @@ import Portfolio from "./pages/Portfolio";
 import Vision from "./pages/Vision";
 import Life from "./pages/Life";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Gotop from "./components/Gotop";
 
 const App = () => {
     // Anime 적용대상
@@ -35,6 +38,8 @@ const App = () => {
     // 6. header 의 메뉴를 클릭시 페이지 번호 전달.
     const [page, setPage] = useState(0);
     useEffect(() => {
+        // aos 초기화
+        AOS.init();
         // console.log("현재 이동 페이지 : ", page);
         new Anime(window, {
             prop: "scroll",
@@ -57,6 +62,8 @@ const App = () => {
     }, []);
     return (
         <div className="wrap" ref={main}>
+            {/* 위로가기 */}
+            <Gotop />
             {/* 7. page 변경 props 전달 */}
             <Header setPage={setPage} />
             <div className="container">
