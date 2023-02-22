@@ -19,7 +19,7 @@ const Portfolio = () => {
                         <div className="portfolio-team">
                             <div className="portfolio-left">
                                 <a
-                                    href="#"
+                                    href="https://dev-jiji.github.io/hansalim/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
@@ -40,7 +40,17 @@ const Portfolio = () => {
                                     <li>프로젝트 도구 : </li>
                                     <li>프로젝트 사용언어 : </li>
                                     <li>프로젝트 피그마 : </li>
-                                    <li>프로젝트 Git : </li>
+                                    <li>
+                                        프로젝트 Git :{" "}
+                                        <a
+                                            href="https://github.com/dev-jiji/hansalim"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            alt="portfolio"
+                                        >
+                                            작업물 보기
+                                        </a>
+                                    </li>
                                     <li>프로젝트 노션 : </li>
                                 </ul>
                             </div>
