@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
-const Header = ({ setPage }) => {
+const Header = ({ setPage, setOpen, open }) => {
     return (
         <header className="header">
             <div className="inner">
@@ -17,7 +16,7 @@ const Header = ({ setPage }) => {
                             <span>Profile</span>
                         </li>
                         <li onClick={() => setPage(2)}>
-                            <span>Skills</span>
+                            <span>Skill</span>
                         </li>
                         <li onClick={() => setPage(3)}>
                             <span>Portfolio</span>
@@ -29,7 +28,12 @@ const Header = ({ setPage }) => {
                             <span>Vision</span>
                         </li>
                     </ul>
-                    <span className="mobile-bt">
+                    <span
+                        className="mobile-bt"
+                        onClick={() => {
+                            open ? setOpen(false) : setOpen(true);
+                        }}
+                    >
                         <FontAwesomeIcon icon={faBars} />
                     </span>
                 </nav>

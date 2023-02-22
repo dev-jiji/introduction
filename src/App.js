@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Gotop from "./components/Gotop";
+import MobileMenu from "./components/MobileMenu";
 
 const App = () => {
     // Anime 적용대상
@@ -33,6 +34,12 @@ const App = () => {
             pos.current.push(item.offsetTop);
         }
         // console.log(pos.current);
+        // 모바일 메뉴 숨기기
+        const winW = window.innerWidth;
+        // console.log(winW);
+        if (winW > 860) {
+            setOpen(false);
+        }
     };
 
     // 6. header 의 메뉴를 클릭시 페이지 번호 전달.
@@ -60,12 +67,17 @@ const App = () => {
             window.removeEventListener("scroll", getPos);
         };
     }, []);
+
+    // 모바일 메뉴 펼치기 상태관리
+    const [open, setOpen] = useState(false);
     return (
         <div className="wrap" ref={main}>
             {/* 위로가기 */}
             <Gotop />
             {/* 7. page 변경 props 전달 */}
-            <Header setPage={setPage} />
+            <Header setPage={setPage} setOpen={setOpen} open={open} />
+            <MobileMenu setPage={setPage} setOpen={setOpen} open={open} />
+
             <div className="container">
                 <Visual />
                 <Profile />
