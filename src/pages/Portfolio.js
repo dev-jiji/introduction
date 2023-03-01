@@ -30,7 +30,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-right">
                 <ul className="portfilio-team-list">
-                  <li>프로젝트 : </li>
+                  <li>프로젝트명 : </li>
                   <li>프로젝트 기간 : </li>
                   <li>프로젝트 주제 : </li>
                   <li>프로젝트 기여도 : </li>
