@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Portfolio = () => {
+    const path = process.env.PUBLIC_URL;
     return (
         <section className="portfolio scroll">
             <div className="inner">
@@ -25,7 +26,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="project"
                                     />
                                 </a>
@@ -64,7 +65,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="project"
                                     />
                                 </a>
@@ -93,7 +94,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="project"
                                     />
                                 </a>
@@ -122,7 +123,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="project"
                                     />
                                 </a>
@@ -178,7 +179,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -191,7 +192,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -204,7 +205,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -217,7 +218,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -230,7 +231,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -243,7 +244,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src="/images/sample.png"
+                                        src={`${path}/images/sample.png`}
                                         alt="portfolio"
                                     />
                                 </a>

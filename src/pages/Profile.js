@@ -1,6 +1,9 @@
 import React from "react";
+import { SiGmail } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
 
 const Profile = () => {
+    const path = process.env.PUBLIC_URL;
     return (
         <section className="profile scroll">
             <div className="inner">
@@ -13,11 +16,30 @@ const Profile = () => {
                     data-aos-delay="500"
                 >
                     <div className="profile-box">
-                        <img src="/images/profile1.png" alt="profile" />
+                        <div className="profile-left">
+                            <img
+                                src={`${path}/images/logo.jpg`}
+                                style={{
+                                    width: 200,
+                                    height: 200,
+                                    borderRadius: "100%",
+                                }}
+                                alt="profile"
+                            />
+
+                            <div className="profile-txt">
+                                <p>이름</p>
+                                <p>성장곡선을 그리는 개발자</p>
+                            </div>
+                        </div>
+                        <div className="profile-right">
+                            <SiGmail style={{ width: 45, height: 45 }} />
+                            <BsGithub style={{ width: 45, height: 45 }} />
+                        </div>
                     </div>
-                    <div className="profile-box">
-                        <img src="/images/profile2.png" alt="profile" />
-                    </div>
+                    {/* <div className="profile-box">
+                        <img src={`${path}/images/result.png`} alt="profile" />
+                    </div> */}
                 </div>
             </div>
         </section>
