@@ -10,17 +10,19 @@ const Life = () => {
                     {/* 나의 대외활동, 취미, 회사 대표가 바라는 인재상 */}
                     <ul className="life-list">
                         <li>
-                            <img
-                                src={`${path}/images/life.png`}
-                                data-aos="fade-up"
-                                data-aos-duration="300"
-                                data-aos-delay="300"
-                                alt="life"
-                            />
+                           
+                                <img
+                                    src={`${path}/images/dance.gif`}
+                                    data-aos="fade-up"
+                                    data-aos-duration="300"
+                                    data-aos-delay="400"
+                                    alt="life"
+                               />
+                            
                         </li>
                         <li>
                             <img
-                                src={`${path}/images/life.png`}
+                                src={`${path}/images/life1.jpg`}
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="400"
@@ -29,7 +31,7 @@ const Life = () => {
                         </li>
                         <li>
                             <img
-                                src={`${path}/images/life.png`}
+                                src={`${path}/images/life2.jpg`}
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="500"
@@ -38,7 +40,7 @@ const Life = () => {
                         </li>
                         <li>
                             <img
-                                src={`${path}/images/life.png`}
+                                src={`${path}/images/life3.jpg`}
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="600"
@@ -47,7 +49,7 @@ const Life = () => {
                         </li>
                         <li>
                             <img
-                                src={`${path}/images/life.png`}
+                                src={`${path}/images/life4.jpg`}
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="700"

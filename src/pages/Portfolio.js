@@ -21,7 +21,7 @@ const Portfolio = () => {
                         <div className="portfolio-team">
                             <div className="portfolio-left">
                                 <a
-                                    href="https://devparkse.github.io/hansalim/"
+                                   href="https://dev-jiji.github.io/hansalim/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
@@ -45,7 +45,7 @@ const Portfolio = () => {
                                     <li>
                                         프로젝트 Git :
                                         <a
-                                            href="https://github.com/devparkse/hansalim"
+                                            href="https://dev-jiji.github.io/hansalim/"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             alt="portfolio"
