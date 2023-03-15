@@ -10,78 +10,116 @@ const Life = () => {
                     {/* 나의 대외활동, 취미, 회사 대표가 바라는 인재상 */}
                     <ul className="life-list">
                         <li>
-                           
-                                <img
-                                    src={`${path}/images/dance.gif`}
-                                    data-aos="fade-up"
-                                    data-aos-duration="300"
-                                    data-aos-delay="400"
-                                    alt="life"
-                               />
-                            
-                        </li>
-                        <li>
-                            <img
-                                src={`${path}/images/life1.jpg`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="400"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/dance.gif`}
+                                    alt="life"
+                                />
+                                <span># Dance (girl's hiphop)</span>
+                            </div>
                         </li>
                         <li>
-                            <img
-                                src={`${path}/images/life2.jpg`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="500"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/life1.jpg`}
+                                    alt="life"
+                                />
+                                <span> # 등산 </span>
+                            </div>
                         </li>
                         <li>
-                            <img
-                                src={`${path}/images/life3.jpg`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="600"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/life2.jpg`}
+                                    alt="life"
+                                />
+                                <span> # 여행 </span>
+                            </div>
                         </li>
                         <li>
-                            <img
-                                src={`${path}/images/life4.jpg`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="700"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/life3.jpg`}
+                                    alt="life"
+                                />
+                                <span> # 꽃놀이 </span>
+                            </div>
                         </li>
                         <li>
-                            <img
-                                src={`${path}/images/life.png`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="800"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/life4.jpg`}
+                                    alt="life"
+                                />
+                                <span> # Cafe 탐방 </span>
+                            </div>
                         </li>
                         <li>
-                            <img
-                                src={`${path}/images/life.png`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="900"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/life5.jpg`}
+                                    alt="life"
+                                />
+                                <span> # Painting </span>
+                            </div>
                         </li>
                         <li>
-                            <img
-                                src={`${path}/images/life.png`}
+                            <div
+                                class="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="1000"
-                                alt="life"
-                            />
+                            >
+                                <img
+                                    src={`${path}/images/life6.jpg`}
+                                    alt="life"
+                                />
+                                <span> # 전시회 관람 </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class="life-cont"
+                                data-aos="fade-up"
+                                data-aos-duration="300"
+                                data-aos-delay="1100"
+                            >
+                                <img
+                                    src={`${path}/images/drive.gif`}
+                                    alt="life"
+                                />
+                                <span> # Drive </span>
+                            </div>
                         </li>
                     </ul>
                 </div>

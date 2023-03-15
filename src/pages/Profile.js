@@ -57,14 +57,8 @@ const Profile = () => {
                             <div className="right-box">
                                 <h4>INTRO</h4>
                                 <p>
-                                    자기소개 자세히
-                                    <br />
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error, quidem architecto
-                                    tenetur, sit vero quos vitae praesentium
-                                    blanditiis et repellat temporibus quo
-                                    consectetur explicabo adipisci nesciunt
-                                    minima aut! Porro, neque!
+                                    안녕하세요, 항상 꾸준한 사람 <b>옥지은</b> 입니다.<br/>
+                                    배움을 즐기면서 꾸준하게 학습하며 유연한 성장곡선을 이루고 싶습니다.
                                 </p>
                                 <h4>ACTIBITY</h4>
                                 <p>

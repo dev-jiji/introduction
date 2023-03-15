@@ -9,18 +9,36 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .visual-box {
-            display: flex;
-            justify-content: space-around;
-        }
-
+        
         .visual-txt {
             position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
             width: 100%;
-            text-align: center;
+            text-align: left;
             opacity: 0;
             transform: translateY(100%);
             animation: slide-up 1s ease-in-out forwards;
+            margin-right: 50px;
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+            }
+            h3 {
+                font-size: 30px;
+                font-weight: 600;
+                text-align: left;
+            }
+            h4 {
+                font-size: 18px;
+            }
+        }
+        img {
+            width: 50% !important;
+            height: 50% !important;
+            opacity: 0.7;
+            border-radius: 10px;
         }
 
         @keyframes slide-up {
@@ -29,7 +47,8 @@
                 transform: translateY(0%);
             }
         }
-        .visual-txt h2 {
+        .visual-txt h2,
+        img {
             opacity: 0;
             transform: translateY(100%);
             animation: slide-up 1s ease-in-out forwards 0.3s;
