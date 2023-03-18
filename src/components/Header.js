@@ -1,13 +1,24 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import Anime from "../assets/Anime";
+
 const Header = ({ setPage, setOpen, open }) => {
+    const goTop = () => {
+        new Anime(window, {
+            prop: "scroll",
+            value: -80,
+            duration: 500,
+        });
+        setPage(0);
+    };
+
     const path = process.env.PUBLIC_URL;
 
     return (
         <header className="header">
             <div className="inner">
                 <nav className="nav">
-                    <span className="header-logo" onClick={() => setPage(0)}>
+                    <span className="header-logo" onClick={() => goTop()}>
                         <img
                             src={`${path}/images/logo.jpg`}
                             alt="logo"
@@ -17,6 +28,7 @@ const Header = ({ setPage, setOpen, open }) => {
                                 borderRadius: 100,
                                 marginRight: "8px",
                             }}
+                            // onClick={() => goTop()}
                         />
                         Dev-JEO
                     </span>

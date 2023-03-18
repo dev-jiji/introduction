@@ -11,7 +11,7 @@ const Life = () => {
                     <ul className="life-list">
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="400"
@@ -25,7 +25,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="500"
@@ -39,7 +39,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="600"
@@ -53,7 +53,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="700"
@@ -67,7 +67,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="800"
@@ -81,7 +81,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="900"
@@ -95,7 +95,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="1000"
@@ -109,7 +109,7 @@ const Life = () => {
                         </li>
                         <li>
                             <div
-                                class="life-cont"
+                                className="life-cont"
                                 data-aos="fade-up"
                                 data-aos-duration="300"
                                 data-aos-delay="1100"

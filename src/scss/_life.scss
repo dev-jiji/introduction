@@ -6,11 +6,13 @@
                 flex-wrap: wrap;
                 justify-content: space-between;
                 align-items: center;
+
                 li {
                     width: 25%;
                     text-align: center;
                     margin-bottom: 180px;
                     height: 250px;
+                    cursor: pointer;
                     .life-cont {
                         position: relative;
                         display: block;
@@ -22,6 +24,10 @@
                         box-shadow: rgb(65 65 66 / 10%) 8px 9px 13px 1px;
                         padding-top: 25px;
                         margin-bottom: 200px;
+                        transition: all 0.3s;
+                        &:hover {
+                            transform: scale(1.1) rotate(8deg);
+                        }
                     }
                     img {
                         display: block;
