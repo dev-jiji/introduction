@@ -3,6 +3,9 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import Anime from "../assets/Anime";
 
 const Header = ({ setPage, setOpen, open }) => {
+
+
+
     const goTop = () => {
         new Anime(window, {
             prop: "scroll",
@@ -12,6 +15,7 @@ const Header = ({ setPage, setOpen, open }) => {
         setPage(0);
     };
 
+   
     const path = process.env.PUBLIC_URL;
 
     return (

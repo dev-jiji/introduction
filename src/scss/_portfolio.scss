@@ -1,15 +1,25 @@
 .portfolio {
+    background: url("../../public/images/bg-1.jpg") no-repeat;
+    background-position: top;
+    
     .inner {
         .contents {
             .portfolio-box {
                 h3{
                     font-size: 30px;
                     font-weight: 700;
+                    margin-top: 32px;
+                    padding-left: 25px;
+                    letter-spacing: 5px;
+                    color: #f6b5cb;
+                    text-transform: uppercase;
+
                 }
                 .portfolio-team {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
+                    margin-top: 20px;
                     margin-bottom: 20px;
 
                     .portfolio-left {

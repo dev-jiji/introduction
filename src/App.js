@@ -40,6 +40,14 @@ const App = () => {
         if (winW > 860) {
             setOpen(false);
         }
+        // 스크롤 할때 헤더 배경바꾸기(투명)
+        const headerBg = document.querySelector(".header");
+        if (window.scrollY === 0) {
+            headerBg.style.background = "transparent";
+            headerBg.style.borderBottom = "none";
+        } else if (window.scrollY > 0) {
+            headerBg.style.backgroundColor = "white";
+        }
     };
 
     // 6. header 의 메뉴를 클릭시 페이지 번호 전달.

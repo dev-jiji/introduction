@@ -8,7 +8,7 @@ const Profile = () => {
             <div className="inner">
                 {/* 자기소개(인사팀) : 약력, 학력, 업무, 교육, 성격, MBTI */}
                 <h2 data-aos="fade-up">Profile</h2>
-                <div className="contents">
+                 <div className="contents">
                     <div className="profile-box">
                         <div
                             className="profile-left"
@@ -19,32 +19,26 @@ const Profile = () => {
                         >
                             <div className="left-box">
                                 <img
-                                    src={`${path}/images/logo.jpg`}
+                                    src={`${path}/images/profile.jpg`}
                                     style={{
                                         width: 200,
                                         height: 200,
                                         borderRadius: "100%",
+                                        objectFit: "cover",
                                     }}
                                     alt="profile"
                                 />
                                 <p>
+                                    <span>옥지은</span>
+                                </p>
+
+                                <p>1994.10.09</p>
+                                <div className="purpose">
                                     <BsFillPencilFill
                                         style={{ marginRight: "8px" }}
                                     />
-                                    이름 : 옥지은
-                                </p>
-                                <p>
-                                    <BsFillPencilFill
-                                        style={{ marginRight: "8px" }}
-                                    />
-                                    생년월일 : 1994.10.09
-                                </p>
-                                <p>
-                                    <BsFillPencilFill
-                                        style={{ marginRight: "8px" }}
-                                    />
-                                    목표 : "성장곡선을 그리는 개발자!"
-                                </p>
+                                    성장곡선을 그리는 개발자!
+                                </div>
                             </div>
                         </div>
                         <div
@@ -57,8 +51,11 @@ const Profile = () => {
                             <div className="right-box">
                                 <h4>INTRO</h4>
                                 <p>
-                                    안녕하세요, 항상 꾸준한 사람 <b>옥지은</b> 입니다.<br/>
-                                    배움을 즐기면서 꾸준하게 학습하며 유연한 성장곡선을 이루고 싶습니다.
+                                    안녕하세요, 항상 꾸준한 사람 <b>옥지은</b>{" "}
+                                    입니다.
+                                    <br />
+                                    배움을 즐기면서 꾸준하게 학습하며 유연한
+                                    성장곡선을 이루고 싶습니다.
                                 </p>
                                 <h4>ACTIBITY</h4>
                                 <p>

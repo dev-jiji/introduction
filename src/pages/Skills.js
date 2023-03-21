@@ -89,28 +89,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div className="skill-item">
-                                <img
-                                    src={`${path}/images/skill-git5.png`}
-                                    alt="skill"
-                                    data-aos="fade-up"
-                                    data-aos-duration="300"
-                                    data-aos-delay="700"
-                                />
-                                <div className="skill-overlay">
-                                    <h3>GitHub</h3>
-                                    <p>
-                                        add, commit, pull, push, branch 사용이
-                                        가능합니다.
-                                    </p>
-                                    <p>
-                                        GitHub Pages를 이용하여, 정적인
-                                        웹사이트를 무료로 호스팅할 수 있습니다.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+
                         <li>
                             <div className="skill-item">
                                 <img
@@ -130,24 +109,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div className="skill-item">
-                                <img
-                                    src={`${path}/images/skill-figma6.png`}
-                                    alt="skill"
-                                    data-aos="fade-up"
-                                    data-aos-duration="300"
-                                    data-aos-delay="900"
-                                />
-                                <div className="skill-overlay">
-                                    <h3>Figma</h3>
-                                    <p>
-                                        컴포넌트에 맞는 UI,와이어프레임을 구성할
-                                        수 있습니다.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+
                         <li>
                             <div className="skill-item">
                                 <img
@@ -174,6 +136,46 @@ const Skills = () => {
                         <li>
                             <div className="skill-item">
                                 <img
+                                    src={`${path}/images/skill-git5.png`}
+                                    alt="skill"
+                                    data-aos="fade-up"
+                                    data-aos-duration="300"
+                                    data-aos-delay="700"
+                                />
+                                <div className="skill-overlay">
+                                    <h3>GitHub</h3>
+                                    <p>
+                                        add, commit, pull, push, branch 사용이
+                                        가능합니다.
+                                    </p>
+                                    <p>
+                                        GitHub Pages를 이용하여, 정적인
+                                        웹사이트를 무료로 호스팅할 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="skill-item">
+                                <img
+                                    src={`${path}/images/skill-figma6.png`}
+                                    alt="skill"
+                                    data-aos="fade-up"
+                                    data-aos-duration="300"
+                                    data-aos-delay="900"
+                                />
+                                <div className="skill-overlay">
+                                    <h3>Figma</h3>
+                                    <p>
+                                        컴포넌트에 맞는 UI,와이어프레임을 구성할
+                                        수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="skill-item">
+                                <img
                                     src={`${path}/images/skill-sass.png`}
                                     alt="skill"
                                     data-aos="fade-up"
@@ -183,7 +185,6 @@ const Skills = () => {
                                 <div className="skill-overlay">
                                     <h3>SASS</h3>
                                     <p>
-                                        {" "}
                                         중첩 구조와 상속에 대해 이해하고 사용할
                                         수 있습니다.
                                     </p>

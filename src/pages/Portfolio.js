@@ -201,7 +201,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src={`${path}/images/stx3.png`}
+                                        src={`${path}/images/stx.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -253,7 +253,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src={`${path}/images/todo7.png`}
+                                        src={`${path}/images/todo.png`}
                                         alt="portfolio"
                                     />
                                 </a>
