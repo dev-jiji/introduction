@@ -14,7 +14,7 @@ const Vision = () => {
                                 data-aos-duration="500"
                                 className="vision-content aos-init aos-animate"
                             >
-                                <img src="../images/vision1.jpg" alt="새싹" />
+                                <img src="../images/vision1.png" alt="새싹" />
                                 <span className="vision-title">
                                     <strong>1년 후, </strong> 기본에 충실한
                                     개발자
@@ -59,7 +59,7 @@ const Vision = () => {
                                 data-aos-duration="3000"
                                 class="vision-content aos-init aos-animate"
                             >
-                                <img src="../images/vision3.avif" alt="나무" />
+                                <img src="../images/vision3.png" alt="나무" />
                                 <span class="vision-title">
                                     <strong>5년 후,</strong> 경험이 풍부한
                                     개발자

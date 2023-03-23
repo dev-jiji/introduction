@@ -1,6 +1,4 @@
 .skills {
-    background: #f6b5cb;
-    
     .inner {
         .contents {
             .skills-list {
@@ -8,37 +6,41 @@
                 justify-content: space-around;
                 flex-wrap: wrap;
                 li {
-                    width: calc(100% / 3 );
+                    width: calc(100% / 3);
                     text-align: center;
                     margin-bottom: 60px;
-
+                    position: relative;
                     .skill-item {
-                        position: relative;
-
+                        margin-bottom: 180px;
                         img {
-                            width: 35%;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 180px;
                             background-color: #fff;
                             padding: 20px;
                             border-radius: 20px;
+                            justify-self: center;
                         }
-
                         .skill-overlay {
                             position: absolute;
-                            top: -23px;
-                            left:120px;
-                            width: 50%;
-                            height: 140%;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
                             border-radius: 10px;
-                            padding: 0 8px;
+                            padding: 10px;
                             background-color: rgba(0, 0, 0, 0.8);
                             opacity: 0;
                             transition: all 0.3s ease;
                             text-align: left;
-                            p {
-                                font-size: 14px;
-                                padding: 5px 18px;
+                            h3 {
+                                font-size: 20px;
                             }
-
+                            p {
+                                font-size: 16px;
+                                padding: 5px 10px;
+                            }
                             // .skill-contents {
                             //     position: absolute;
                             //     top: 50%;
@@ -48,7 +50,6 @@
                             //     text-align: center;
                             // }
                         }
-
                         &:hover {
                             img {
                                 opacity: 0.9;

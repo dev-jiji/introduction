@@ -8,7 +8,7 @@
                 justify-content: space-between;
                 align-items: center;
                 text-align: left;
-                
+
                 li {
                     margin-bottom: 20px;
                 }
@@ -24,31 +24,27 @@
                 }
                 .vision-content img {
                     position: absolute;
-                    top: -50px;
-                    left: -20px;
-                    display: block;
+                    top: -10%;
+                    left: -5%;
                     width: 80px;
                     height: 80px;
-                    border-radius: 50%;
                 }
                 img {
                     vertical-align: middle;
                     border: 0;
-                    opacity: 0.7;
                 }
-               
-                
+
                 .vision-title {
                     position: relative;
                     display: block;
                     font-weight: 700;
                     font-size: 24px;
-                    margin-top: 20px;
+                    margin-top: 30px;
                 }
                 .vision-text {
                     position: relative;
                     display: block;
-                    margin-top: 30px;
+                    margin-top: 40px;
                     font-size: 16px;
                     line-height: 30px;
                     font-weight: 600;

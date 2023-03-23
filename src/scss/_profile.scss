@@ -6,15 +6,20 @@
     font-style: normal;
 }
 .profile {
-    height: 100vh ;
-    // background: url("../../images/bg-3.jpg") cover;
+    //   height: calc(100vh - 80px);
+
+    // background: url("../../public/images/bg4.png") cover !important;
     // background-position: center;
+
+    padding-bottom: 50px;
 
     .inner {
         .contents {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            //   height: calc(100vh - 149px - 80px);
+
             .profile-box {
                 display: flex;
                 justify-content: space-between;
@@ -82,19 +87,33 @@
                         display: block;
                         margin: 0 auto;
                         padding: 40px 35px;
+                        .right-box-left {
+                            display: block;
+                            float: left;
+                        }
+                        .txt {
+                            margin-bottom: 30px;
+                        }
                         h4 {
                             position: relative;
                             display: block;
                             font-size: 22px;
                             font-weight: 700;
-                            padding: 10px 0;
                         }
                         p {
                             position: relative;
                             display: block;
-                            font-size: 18px;
+                            font-size: 20px;
                             line-height: 30px;
                             letter-spacing: -1px;
+                        }
+                        .right-box-right {
+                            display: flex;
+                            text-align: center;
+                        }
+                        img {
+                            width: 400px;
+                            height: 400px;
                         }
                     }
                 }
@@ -102,6 +121,16 @@
         }
     }
 }
+
+
+
+
+@media screen and (max-width: 930px) {
+    .profile-box {
+       min-width: 800px;
+    }
+}
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
 }

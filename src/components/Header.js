@@ -1,11 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import Anime from "../assets/Anime";
+import { useEffect, useRef } from "react";
 
-const Header = ({ setPage, setOpen, open }) => {
-
-
-
+const Header = ({ setPage, setOpen, open, setHeaderBg, headerActive }) => {
+    const header = useRef(null);
     const goTop = () => {
         new Anime(window, {
             prop: "scroll",
@@ -14,12 +13,21 @@ const Header = ({ setPage, setOpen, open }) => {
         });
         setPage(0);
     };
+    useEffect(() => {
+        setHeaderBg(header.current);
+    }, []);
 
-   
     const path = process.env.PUBLIC_URL;
 
     return (
-        <header className="header">
+        <header
+            className="header"
+            ref={header}
+            style={{
+                backgroundColor: headerActive ? "#fff" : "#fff4fb",
+                borderBottom: headerActive ? "#ddd" : "#fff4fb",
+            }}
+        >
             <div className="inner">
                 <nav className="nav">
                     <span className="header-logo" onClick={() => goTop()}>

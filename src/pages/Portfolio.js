@@ -35,44 +35,106 @@ const Portfolio = () => {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         allowfullscreen
+                                        style={{
+                                            borderRadius: "50px 0 50px 0",
+                                            boxShadow: "2px 2px 20px #141414",
+                                        }}
                                     ></iframe>
                                 </a>
-                                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+                                이미지 클릭시 프로젝트 영상이 재생됩니다.
+                                <img
+                                    src={`${path}/images/click.png`}
+                                    alt=""
+                                    style={{
+                                        width: 30,
+                                        height: 30,
+                                        marginLeft: "30px",
+                                        marginBottom: "5px",
+                                    }}
+                                />
                             </div>
                             <div className="portfolio-right">
                                 <ul className="portfolio-team-list">
-                                    <li>프로젝트명 : 배달대 </li>
-                                    <li>
-                                        프로젝트 기간 :2023.01.09~2023.02.05
+                                    <li className="object">배달대 </li>
+                                    <li className="date">
+                                        23.01.09 ~ 23.02.05
                                     </li>
                                     <li>
-                                        프로젝트 주제 : 음식 배달/배달 주문
-                                        서비스
+                                        <span
+                                            style={{
+                                                marginRight: "20px",
+                                                fontWeight: 700,
+                                            }}
+                                        >
+                                            {" "}
+                                            주제
+                                        </span>{" "}
+                                        음식 배달 / 주문 서비스
                                     </li>
-                                    <li>
-                                        프로젝트 목적 : '배달대는 배달비 0원'
+                                    <li style={{ marginBottom: "20px" }}>
+                                        {" "}
+                                        <span
+                                            style={{
+                                                marginRight: "20px",
+                                                fontWeight: 700,
+                                            }}
+                                        >
+                                            목표
+                                        </span>{" "}
+                                        '배달대는 배달비 0원'
                                     </li>
-                                    <li>
-                                        프로젝트 기여도 : 개인정보(로그인,
-                                        회원가입, 마이페이지,정보 수정),
-                                        리뷰등록, 아낀 배달비
+                                    <li className="contribute">
+                                        <div
+                                            className="contribute-left"
+                                            style={{
+                                                fontWeight: 700,
+                                            }}
+                                        >
+                                            개인 <br />
+                                            기여도
+                                        </div>
+                                        <div className="contribute-right">
+                                            <p>
+                                                개인정보(로그인, 회원가입,
+                                                마이페이지,정보 수정)
+                                            </p>
+                                            <p>리뷰등록, 아낀 배달비</p>
+                                        </div>
                                     </li>
-                                    <li>
-                                        프로젝트 도구 : React.js,JavaScript,
-                                        Redux Toolkit, Axios, Tailwind CSS,
-                                        stylecomponent
+                                    <li style={{ marginBottom: "20px" }}>
+                                        React.js / JavaScript / Redux Toolkit
+                                        Axios / stylecomponent
                                     </li>
 
-                                    <li>
-                                        프로젝트 Git :
+                                    <li
+                                        style={{
+                                            marginRight: "50px",
+                                            fontWeight: 700,
+                                        }}
+                                    >
+                                        GitHub
                                         <a
                                             href="https://github.com/dev-jiji/MainProject-1.git"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             alt="portfolio"
+                                            style={{
+                                                marginLeft: "50px",
+                                                fontWeight: 700,
+                                            }}
                                         >
                                             작업물 보기
                                         </a>
+                                        <img
+                                            src={`${path}/images/click.png`}
+                                            alt=""
+                                            style={{
+                                                width: 30,
+                                                height: 30,
+                                                marginLeft: "10px",
+                                                marginBottom: "5px",
+                                            }}
+                                        />
                                     </li>
                                 </ul>
                             </div>
@@ -94,10 +156,8 @@ const Portfolio = () => {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         allowfullscreen
-                                        
                                     ></iframe>
                                 </a>
-                                
                                 (이미지 클릭시 프로젝트 페이지로 이동합니다.)
                             </div>
                             <div className="portfolio-right">
@@ -120,7 +180,7 @@ const Portfolio = () => {
                                         Redux Toolkit, Axios,
                                         React-Hook-Form(Yup), 리액트 쿼리, NIVO
                                         Chart, React Calendar, Swiper, Tailwind
-                                        CSS, stylecomponent
+                                        CSS
                                     </li>
                                     <li>프로젝트 Git : </li>
                                 </ul>

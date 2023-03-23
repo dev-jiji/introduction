@@ -25,7 +25,7 @@ const Skills = () => {
                                         웹 표준성을 준수하여 시맨틱 마크업을
                                         수행할 수 있습니다.
                                     </p>
-                                    <p> HTML로 레이아웃을 잡을 수 있습니다.</p>
+                                    <p>HTML로 레이아웃을 잡을 수 있습니다.</p>
                                 </div>
                             </div>
                         </li>
@@ -59,16 +59,15 @@ const Skills = () => {
                                 />
                                 <div className="skill-overlay">
                                     <h3>JavaScript</h3>
-                                    <p>
+                                    <div>
                                         <p>
-                                            웹사이트에 필요한 동적 기능들을
-                                            구현할 수 있습니다.
+                                            웹사이트에 필요한 동적 기능들을 구현할 수 있습니다.
                                         </p>
                                         <p>
                                             ECMAScript의 변화를 꾸준히 살피고
                                             학습합니다.
                                         </p>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -85,7 +84,6 @@ const Skills = () => {
                                     <h3>React</h3>
                                     <p>컴포넌트 기반 설계를 할 수 있습니다.</p>
                                     <p> 가상DOM과 JSX에 대해 이해합니다.</p>
-                                    <p> 상태관리에 대해 이해합니다.</p>
                                 </div>
                             </div>
                         </li>
@@ -122,7 +120,6 @@ const Skills = () => {
                                 <div className="skill-overlay">
                                     <h3>TypeScript</h3>
                                     <p>
-                                        {" "}
                                         변수, 함수에 대한 타입을 선언할 수
                                         있습니다.
                                     </p>
@@ -169,6 +166,9 @@ const Skills = () => {
                                     <p>
                                         컴포넌트에 맞는 UI,와이어프레임을 구성할
                                         수 있습니다.
+                                    </p>
+                                    <p>
+                                        팀 협업을 위한 사용 방법을 이해하고 있습니다.
                                     </p>
                                 </div>
                             </div>

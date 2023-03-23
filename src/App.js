@@ -19,6 +19,19 @@ import MobileMenu from "./components/MobileMenu";
 const App = () => {
     // Anime 적용대상
     const main = useRef(null);
+    const [headerBg, setHeaderBg] = useState(null);
+    const [headerActive, setHeaderActive] = useState(false);
+    useEffect(() => {
+        // console.log(headerBg);
+        // 스크롤 할때 헤더 배경바꾸기(투명)
+        window.addEventListener("scroll", () => {
+            if (window.scrollY === 0) {
+                setHeaderActive(false);
+            } else if (window.scrollY > 0) {
+                setHeaderActive(true);
+            }
+        });
+    }, [headerBg]);
     // 이동할 위치값 저장
     // useRef : html 대상을 저장하는 용도
     // useRef : state 가 아닌 변수 저장, 화면갱신과 상관없는 아닌 변수 저장
@@ -29,6 +42,7 @@ const App = () => {
         pos.current = [];
         // 3. 각 section 위치값을 파악해서 저장한다.
         const secs = main.current.querySelectorAll(".scroll");
+
         for (const item of secs) {
             // 각 영역의 스크롤 픽셀 위치값
             pos.current.push(item.offsetTop);
@@ -39,14 +53,6 @@ const App = () => {
         // console.log(winW);
         if (winW > 860) {
             setOpen(false);
-        }
-        // 스크롤 할때 헤더 배경바꾸기(투명)
-        const headerBg = document.querySelector(".header");
-        if (window.scrollY === 0) {
-            headerBg.style.background = "transparent";
-            headerBg.style.borderBottom = "none";
-        } else if (window.scrollY > 0) {
-            headerBg.style.backgroundColor = "white";
         }
     };
 
@@ -61,9 +67,11 @@ const App = () => {
             value: pos.current[page] - 80,
             duration: 500,
         });
+        console.log(main.current);
     }, [page]);
 
     useEffect(() => {
+        // const headerBg = header.current;
         // 1. 최초 section 스크롤 위치값을 파악
         getPos();
         // 4. 화면 리사이즈 할 때도 getPos() 실행 필요
@@ -83,7 +91,13 @@ const App = () => {
             {/* 위로가기 */}
             <Gotop />
             {/* 7. page 변경 props 전달 */}
-            <Header setPage={setPage} setOpen={setOpen} open={open} />
+            <Header
+                setPage={setPage}
+                setOpen={setOpen}
+                open={open}
+                setHeaderBg={setHeaderBg}
+                headerActive={headerActive}
+            />
             <MobileMenu setPage={setPage} setOpen={setOpen} open={open} />
 
             <div className="container">
