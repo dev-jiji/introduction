@@ -274,7 +274,7 @@ const Portfolio = () => {
                                     alt="portfolio"
                                 >
                                     <img
-                                        src={`${path}/images/hansalim2.png`}
+                                        src={`${path}/images/hansalim.png`}
                                         alt="portfolio"
                                     />
                                 </a>
