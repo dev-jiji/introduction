@@ -21,120 +21,93 @@ const Portfolio = () => {
 
                         <div className="portfolio-team">
                             <div className="portfolio-left">
-                                <a
-                                    href="https://youtu.be/hzXEDjayTVc"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    alt="portfolio"
-                                >
-                                    <iframe
-                                        width="700"
-                                        height="400"
-                                        src="https://www.youtube.com/embed/hzXEDjayTVc"
-                                        title="배달대"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        allowfullscreen
-                                        style={{
-                                            borderRadius: "50px 0 50px 0",
-                                            boxShadow: "2px 2px 20px #141414",
-                                        }}
-                                    ></iframe>
-                                </a>
-                                이미지 클릭시 프로젝트 영상이 재생됩니다.
-                                <img
-                                    src={`${path}/images/click.png`}
-                                    alt=""
-                                    style={{
-                                        width: 30,
-                                        height: 30,
-                                        marginLeft: "30px",
-                                        marginBottom: "5px",
-                                    }}
-                                />
+                                <iframe
+                                    width="700"
+                                    height="400"
+                                    src="https://www.youtube.com/embed/hzXEDjayTVc"
+                                    title="배달대"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
                             </div>
                             <div className="portfolio-right">
                                 <ul className="portfolio-team-list">
                                     <li className="object">배달대 </li>
-                                    <li className="date">
-                                        23.01.09 ~ 23.02.05
-                                    </li>
-                                    <li>
-                                        <span
-                                            style={{
-                                                marginRight: "20px",
-                                                fontWeight: 700,
-                                            }}
-                                        >
-                                            {" "}
-                                            주제
-                                        </span>{" "}
-                                        음식 배달 / 주문 서비스
-                                    </li>
-                                    <li style={{ marginBottom: "20px" }}>
-                                        {" "}
-                                        <span
-                                            style={{
-                                                marginRight: "20px",
-                                                fontWeight: 700,
-                                            }}
-                                        >
-                                            목표
-                                        </span>{" "}
+                                    <li className="goal">
                                         '배달대는 배달비 0원'
                                     </li>
-                                    <li className="contribute">
-                                        <div
-                                            className="contribute-left"
-                                            style={{
-                                                fontWeight: 700,
-                                            }}
-                                        >
-                                            개인 <br />
-                                            기여도
-                                        </div>
-                                        <div className="contribute-right">
-                                            <p>
-                                                개인정보(로그인, 회원가입,
-                                                마이페이지,정보 수정)
-                                            </p>
-                                            <p>리뷰등록, 아낀 배달비</p>
-                                        </div>
+                                    <li className="date">
+                                        <span style={{ fontWeight: 600 }}>
+                                            제작기간
+                                        </span>
+                                        <span>23.01.09 ~ 23.02.05</span>
                                     </li>
-                                    <li style={{ marginBottom: "20px" }}>
-                                        React.js / JavaScript / Redux Toolkit
-                                        Axios / stylecomponent
+                                    <li className="join">
+                                        <span style={{ fontWeight: 600 }}>
+                                            참여인원
+                                        </span>
+                                        <span>3명</span>
+                                    </li>
+                                    <li className="contribute">
+                                        <span style={{ fontWeight: 600 }}>
+                                            개인 기여도
+                                        </span>
+                                        <p>
+                                            개인정보(로그인, 회원가입, 마이페이지, 정보 수정)
+                                            <br />
+                                            리뷰등록, 아낀 배달비
+                                        </p>
                                     </li>
 
-                                    <li
-                                        style={{
-                                            marginRight: "50px",
-                                            fontWeight: 700,
-                                        }}
-                                    >
-                                        GitHub
+                                    <li className="program">
+                                        <span style={{ fontWeight: 600 }}>
+                                            사용 프로그램
+                                        </span>
+                                        <span>
+                                            <img
+                                                src={`${path}/images/skill-react6.png`}
+                                                alt="react"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-js.png`}
+                                                alt="js"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-redux2.png`}
+                                                alt="redux"
+                                            />
+                                            <img
+                                                src={`${path}/images/axios.png`}
+                                                alt="axios"
+                                            />
+                                            <img
+                                                src={`${path}/images/stylecomponent.png`}
+                                                alt="stylecomponent"
+                                            />
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span style={{ fontWeight: 600,marginRight:-20 }}>
+                                            작업물 보기
+                                        </span>
+
                                         <a
                                             href="https://github.com/dev-jiji/MainProject-1.git"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             alt="portfolio"
                                             style={{
-                                                marginLeft: "50px",
+                                                marginLeft: "60px",
                                                 fontWeight: 700,
                                             }}
                                         >
-                                            작업물 보기
+                                            <img
+                                                src={`${path}/images/skill-git5.png`}
+                                                alt="stylecomponent"
+                                            />
                                         </a>
-                                        <img
-                                            src={`${path}/images/click.png`}
-                                            alt=""
-                                            style={{
-                                                width: 30,
-                                                height: 30,
-                                                marginLeft: "10px",
-                                                marginBottom: "5px",
-                                            }}
-                                        />
                                     </li>
                                 </ul>
                             </div>

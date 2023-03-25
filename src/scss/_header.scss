@@ -45,12 +45,12 @@
                             bottom: 0;
                             width: 0%;
                             height: 3px;
-                            background-color: hotpink;
+                            background-color: #e31a5a;
                             transition: width 0.5s;
                         }
                     }
                     &:hover span {
-                        color: hotpink;
+                        color:#e31a5a;
                         &::after {
                             width: 100%;
                         }

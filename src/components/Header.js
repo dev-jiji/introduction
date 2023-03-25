@@ -24,8 +24,8 @@ const Header = ({ setPage, setOpen, open, setHeaderBg, headerActive }) => {
             className="header"
             ref={header}
             style={{
-                backgroundColor: headerActive ? "#fff" : "#fff4fb",
-                borderBottom: headerActive ? "#ddd" : "#fff4fb",
+                backgroundColor: headerActive ? "#fff" : "#fbf7f4",
+                borderBottom: headerActive ? "#ddd" : "#fbf7f4",
             }}
         >
             <div className="inner">

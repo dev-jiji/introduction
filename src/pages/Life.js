@@ -31,7 +31,7 @@ const Life = () => {
                                 data-aos-delay="500"
                             >
                                 <img
-                                    src={`${path}/images/life1.jpg`}
+                                    src={`${path}/images/life1-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # 등산 </span>
@@ -45,7 +45,7 @@ const Life = () => {
                                 data-aos-delay="600"
                             >
                                 <img
-                                    src={`${path}/images/life2.jpg`}
+                                    src={`${path}/images/life2-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # 여행 </span>
@@ -59,7 +59,7 @@ const Life = () => {
                                 data-aos-delay="700"
                             >
                                 <img
-                                    src={`${path}/images/life3.jpg`}
+                                    src={`${path}/images/life3-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # 꽃놀이 </span>
@@ -73,7 +73,7 @@ const Life = () => {
                                 data-aos-delay="800"
                             >
                                 <img
-                                    src={`${path}/images/life4.jpg`}
+                                    src={`${path}/images/life4-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # Cafe 탐방 </span>
@@ -87,7 +87,7 @@ const Life = () => {
                                 data-aos-delay="900"
                             >
                                 <img
-                                    src={`${path}/images/life5.jpg`}
+                                    src={`${path}/images/life5-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # Painting </span>
@@ -101,7 +101,7 @@ const Life = () => {
                                 data-aos-delay="1000"
                             >
                                 <img
-                                    src={`${path}/images/life6.jpg`}
+                                    src={`${path}/images/life6-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # 전시회 관람 </span>

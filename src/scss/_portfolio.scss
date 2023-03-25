@@ -1,31 +1,32 @@
 .portfolio {
-    background: url("../../public/images/bg-1.jpg") no-repeat;
-    background-position: 50% 0;
-  
+    background: url("../../public/images/bg-5.png") no-repeat;
+    background-position: 0 -18%;
 
     .inner {
+        h2 {
+            font-size: 0;
+        }
         .contents {
             .portfolio-box {
                 h3 {
-              
-                    font-size: 30px;
+                    font-size: 40px;
                     font-weight: 700;
-                    margin-top: 32px;
-                    padding-left: 25px;
-
-                    color: #f6b5cb;
                     text-transform: uppercase;
-                    margin-bottom: 100px;
+                    margin-bottom: 200px;
+                    margin-top: 50px;
                 }
                 .portfolio-team {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
                     margin-top: 20px;
-                    margin-bottom: 20px;
+                    margin-bottom: 50px;
+                    background: #fff;
+                    padding: 50px 10px;
+                    border-radius: 10px;
 
                     .portfolio-left {
-                        width: calc(60% - 10px);
+                        width: calc(60% - 70px);
                         text-align: center;
                         a {
                             display: block;
@@ -38,38 +39,44 @@
                     }
                     .portfolio-right {
                         display: flex;
-                        width: calc(40% - 10px);
+                        align-items: center;
+                        width: 40%;
                         font-size: 20px;
-                        letter-spacing: 4px;
+                        line-height: 35px;
                     }
                     .object {
                         font-family: "HS-Regular";
-                        color: #f6b5cb;
                         font-size: 50px;
                     }
-                    .date {
+                    .goal {
                         font-size: 20px;
-                        letter-spacing: 5px;
+                        color: #8d8a87;
                         margin-bottom: 10px;
+                    }
+
+                    .date {
+                        display: flex;
+                        gap: 70px;
+                    }
+                    .join {
+                        display: flex;
+                        gap: 70px;
                     }
                     .contribute {
                         display: flex;
-                        margin-bottom: 20px;
+                        gap: 45px;
                     }
-                    .contribute-left {
-                        margin-top: 10px;
-                        margin-right: 10px;
+                    .program {
+                        display: flex;
+                        gap: 20px;
                     }
-                    p {
-                        display: inline-block;
-                        background-color: #f6b5cb;
-                        border-radius: 20px;
-                        color: #fff;
-                        margin: 5px 0;
-                        padding: 3px 8px;
-                        font-size: 17px;
+                    img {
+                        width: 45px;
+                        height: 45px;
+                     margin-right: 10px;
                     }
                 }
+
                 .portfolio-slide {
                     .swiper-button-next,
                     .swiper-rtl .swiper-button-prev {
