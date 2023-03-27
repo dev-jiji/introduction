@@ -115,7 +115,7 @@ const Life = () => {
                                 data-aos-delay="1100"
                             >
                                 <img
-                                    src={`${path}/images/drive.gif`}
+                                    src={`${path}/images/drive-1.jpg`}
                                     alt="life"
                                 />
                                 <span> # Drive </span>

@@ -60,7 +60,7 @@ const Profile = () => {
                                     </p>
                                 </div>
                                 <div className="txt">
-                                    <h4>ACTIBITY</h4>
+                                    <h4>ACTIVITY</h4>
                                     <p>
                                         2022-10-28 - 2023-04-13 <br />
                                         기업 요구를 반영한 프로젝트 중심

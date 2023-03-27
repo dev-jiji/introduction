@@ -54,7 +54,8 @@ const Portfolio = () => {
                                             개인 기여도
                                         </span>
                                         <p>
-                                            개인정보(로그인, 회원가입, 마이페이지, 정보 수정)
+                                            개인정보(로그인, 회원가입,
+                                            마이페이지, 정보 수정)
                                             <br />
                                             리뷰등록, 아낀 배달비
                                         </p>
@@ -89,7 +90,12 @@ const Portfolio = () => {
                                     </li>
 
                                     <li>
-                                        <span style={{ fontWeight: 600,marginRight:-20 }}>
+                                        <span
+                                            style={{
+                                                fontWeight: 600,
+                                                marginRight: -20,
+                                            }}
+                                        >
                                             작업물 보기
                                         </span>
 
@@ -115,93 +121,209 @@ const Portfolio = () => {
 
                         <div className="portfolio-team">
                             <div className="portfolio-left">
-                                <a
-                                    href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    alt="portfolio"
-                                >
-                                    <iframe
-                                        width="700"
-                                        height="400"
-                                        src="https://www.youtube.com/embed/grLY0o287xQ"
-                                        title="허니머니"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        allowfullscreen
-                                    ></iframe>
-                                </a>
-                                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+                                <iframe
+                                    width="700"
+                                    height="400"
+                                    src="https://www.youtube.com/embed/grLY0o287xQ"
+                                    title="허니머니"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
                             </div>
                             <div className="portfolio-right">
                                 <ul className="portfolio-team-list">
-                                    <li>프로젝트명 : 허니머니(커플 가계부)</li>
-                                    <li>
-                                        프로젝트 기간 : 2023.02.09 ~ 2023.03.02{" "}
+                                    <li className="object">허니머니 </li>
+                                    <li className="goal">
+                                        '서로의 믿음과 신뢰를 위한 커플들의 통장
+                                        관리'
                                     </li>
-                                    <li>프로젝트 주제 : 가계부 서비스 </li>
-                                    <li>
-                                        프로젝트 목적 : '서로의 믿음과 신뢰를
-                                        위한 커플들의 통장 관리'
+                                    <li className="date">
+                                        <span style={{ fontWeight: 600 }}>
+                                            제작기간
+                                        </span>
+                                        <span>23.02.09 ~ 23.03.02</span>
                                     </li>
-                                    <li>
-                                        프로젝트 기여도 : 공지사항 관련(추가
-                                        등록, 수정, 삭제), 차트 통계
+                                    <li className="join">
+                                        <span style={{ fontWeight: 600 }}>
+                                            참여인원
+                                        </span>
+                                        <span>3명</span>
                                     </li>
-                                    <li>
-                                        프로젝트 도구 : React.js,JavaScript,
-                                        Redux Toolkit, Axios,
-                                        React-Hook-Form(Yup), 리액트 쿼리, NIVO
-                                        Chart, React Calendar, Swiper, Tailwind
-                                        CSS
+                                    <li className="contribute">
+                                        <span style={{ fontWeight: 600 }}>
+                                            개인 기여도
+                                        </span>
+                                        <p>
+                                            공지사항 관련(추가 등록, 수정,
+                                            삭제), 차트 통계
+                                        </p>
                                     </li>
-                                    <li>프로젝트 Git : </li>
+
+                                    <li className="program">
+                                        <span style={{ fontWeight: 600 }}>
+                                            사용 프로그램
+                                        </span>
+                                        <span>
+                                            <img
+                                                src={`${path}/images/skill-react6.png`}
+                                                alt="react"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-js.png`}
+                                                alt="js"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-redux2.png`}
+                                                alt="redux"
+                                            />
+                                            <img
+                                                src={`${path}/images/nivo-1.png`}
+                                                alt="axios"
+                                            />
+                                            <img
+                                                src={`${path}/images/tailwind.png`}
+                                                alt="stylecomponent"
+                                            />
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span
+                                            style={{
+                                                fontWeight: 600,
+                                                marginRight: -20,
+                                            }}
+                                        >
+                                            작업물 보기
+                                        </span>
+
+                                        <a
+                                            href="hhttps://github.com/dev-jiji/accountbook.git"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            alt="portfolio"
+                                            style={{
+                                                marginLeft: "60px",
+                                                fontWeight: 700,
+                                            }}
+                                        >
+                                            <img
+                                                src={`${path}/images/skill-git5.png`}
+                                                alt="stylecomponent"
+                                            />
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="portfolio-team">
                             <div className="portfolio-left">
-                                <a
-                                    href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    alt="portfolio"
-                                >
-                                    <img
-                                        src={`${path}/images/sample.png`}
-                                        alt="project"
-                                    />
-                                </a>
-                                (이미지 클릭시 프로젝트 페이지로 이동합니다.)
+                                <img
+                                    src={`${path}/images/3th.png`}
+                                    alt=""
+                                    style={{ width: 700, height: 400 }}
+                                />
+                                {/* <iframe
+                                    width="700"
+                                    height="400"
+                                    src="https://www.youtube.com/embed/grLY0o287xQ"
+                                    title="SKYcastle"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe> */}
                             </div>
                             <div className="portfolio-right">
                                 <ul className="portfolio-team-list">
-                                    <li>프로젝트명 : skycastle</li>
-                                    <li>프로젝트 기간 : 2023.03.06 ~</li>
-                                    <li>프로젝트 주제 : 성적 관리 서비스 </li>
-                                    <li>
-                                        프로젝트 목적 : 고3 학생들의 영어 성적
-                                        향상을 위한 관리
+                                    <li className="object">SKYcastle </li>
+                                    <li className="goal">
+                                        '고3 학생들의 영어 성적 향상을 위한
+                                        관리'
                                     </li>
-                                    <li>
-                                        프로젝트 기여도 : 게시판 (리스트, 등록,
-                                        디테일, 리뷰)
+                                    <li className="date">
+                                        <span style={{ fontWeight: 600 }}>
+                                            제작기간
+                                        </span>
+                                        <span>23.03.06 ~ 23.04.06</span>
                                     </li>
-                                    <li>
-                                        프로젝트 도구 :
-                                        React.js,JavaScript,TypeScript, Redux
-                                        Toolkit, Axios, 리액트 쿼리, NIVO,
-                                        TailwindCSS, stylecomponent, Ant Degign
+                                    <li className="join">
+                                        <span style={{ fontWeight: 600 }}>
+                                            참여인원
+                                        </span>
+                                        <span>5명</span>
                                     </li>
-                                    <li>프로젝트 Git : </li>
+                                    <li className="contribute">
+                                        <span style={{ fontWeight: 600 }}>
+                                            개인 기여도
+                                        </span>
+                                        <p>
+                                            게시판 (리스트, 등록, 디테일, 리뷰)
+                                        </p>
+                                    </li>
+
+                                    <li className="program">
+                                        <span style={{ fontWeight: 600 }}>
+                                            사용 프로그램
+                                        </span>
+                                        <span>
+                                            <img
+                                                src={`${path}/images/skill-react6.png`}
+                                                alt="react"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-js.png`}
+                                                alt="js"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-redux2.png`}
+                                                alt="redux"
+                                            />
+                                            <img
+                                                src={`${path}/images/ant.png`}
+                                                alt="axios"
+                                            />
+                                            <img
+                                                src={`${path}/images/tailwind.png`}
+                                                alt="stylecomponent"
+                                            />
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span
+                                            style={{
+                                                fontWeight: 600,
+                                                marginRight: -20,
+                                            }}
+                                        >
+                                            작업물 보기
+                                        </span>
+
+                                        <a
+                                            href="https://github.com/dev-jiji/skycastle.git"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            alt="portfolio"
+                                            style={{
+                                                marginLeft: "60px",
+                                                fontWeight: 700,
+                                            }}
+                                        >
+                                            <img
+                                                src={`${path}/images/skill-git5.png`}
+                                                alt="stylecomponent"
+                                            />
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     {/* 개인 스터디 프로젝트 */}
                     <div className="portfolio-box">
-                        <h3>Study Project</h3>
+                        <h2>Study Project</h2>
                         {/* Swiper 배치 */}
                         <Swiper
                             loop={true}
@@ -228,7 +350,7 @@ const Portfolio = () => {
                         >
                             <SwiperSlide>
                                 <a
-                                    href="#"
+                                    href="https://dev-jiji.github.io/stx/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
@@ -241,7 +363,7 @@ const Portfolio = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
-                                    href="#"
+                                    href="https://dev-jiji.github.io/hansalim/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
@@ -254,7 +376,7 @@ const Portfolio = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
-                                    href="#"
+                                    href="https://dev-jiji.github.io/ee/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
@@ -267,7 +389,7 @@ const Portfolio = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
-                                    href="#"
+                                    href="https://dev-jiji.github.io/hyundai-clone/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
@@ -280,7 +402,7 @@ const Portfolio = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
-                                    href="#"
+                                    href="https://github.com/dev-jiji/ts-todo.git"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
