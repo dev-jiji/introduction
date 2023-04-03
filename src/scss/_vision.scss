@@ -56,6 +56,12 @@
     }
 }
 
+@media screen and (max-width: 1260px) {
+    .vision-list {
+       flex-direction: column;
+    }
+}
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
 }
@@ -64,7 +70,7 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-    .vision-list {
-        flex-wrap: wrap;
-    }
+    // .vision-list {
+    //     flex-wrap: wrap;
+    // }
 }

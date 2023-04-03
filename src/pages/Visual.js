@@ -1,6 +1,7 @@
 import React from "react";
 
 const Visual = () => {
+    const path = process.env.PUBLIC_URL;
     return (
         <div className="visual scroll">
             <div className="inner">
@@ -12,8 +13,42 @@ const Visual = () => {
                         <br />
                         프론트엔트 개발자
                         <br />
-                        옥지은 입니다.
+                        <span>옥지은</span>
+                        입니다.
                     </h2>
+                </div>
+                
+                <div className="icon">
+                    <img
+                        src={`${path}/images/resume.png`}
+                        alt="git"
+                        style={{ width: "6%", height: "6%" }}
+                    />
+
+                    <a
+                        href="https://github.com/dev-jiji"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="git"
+                    >
+                        <img
+                            src={`${path}/images/skill-git5.png`}
+                            alt="git"
+                            style={{ width: "6%", height: "6%" }}
+                        />
+                    </a>
+                    <a
+                        href="https://www.notion.so/b25086090877423e9e5f285b72c5a8c5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="notion"
+                    >
+                        <img
+                            src={`${path}/images/notion.svg.png`}
+                            alt="notion"
+                            style={{ width: "6%", height: "6%" }}
+                        />
+                    </a>
                 </div>
             </div>
         </div>

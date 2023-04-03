@@ -55,6 +55,12 @@
         }
     }
 }
+@media screen and (max-width: 1080px) {
+      .life-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
 }
@@ -63,7 +69,7 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-    .life-list {
-        grid-template-columns: repeat(2, 1fr) !important;
-    }
+    // .life-list {
+    //     grid-template-columns: repeat(2, 1fr) !important;
+    // }
 }

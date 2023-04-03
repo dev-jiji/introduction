@@ -26,9 +26,9 @@ const Portfolio = () => {
                                     height="400"
                                     src="https://www.youtube.com/embed/hzXEDjayTVc"
                                     title="배달대"
-                                    frameborder="0"
+                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                             <div className="portfolio-right">
@@ -126,9 +126,9 @@ const Portfolio = () => {
                                     height="400"
                                     src="https://www.youtube.com/embed/grLY0o287xQ"
                                     title="허니머니"
-                                    frameborder="0"
+                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                             <div className="portfolio-right">

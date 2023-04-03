@@ -1,8 +1,8 @@
 .profile {
-    background: url("../../public/images/bg-4.png")  !important;
+    background: url("../../public/images/bg-4.png") !important;
     // background-position: center;
     padding-bottom: 300px;
-    
+
     .inner {
         .contents {
             // display: flex;
@@ -10,14 +10,14 @@
             // align-items: center;
             //   height: calc(100vh - 149px - 80px);
             margin-top: 100px;
-            
+
             .profile-box {
                 display: flex;
-                justify-content: space-between;
+                // justify-content: space-between;
                 width: 100%;
                 height: 100%;
                 align-items: center;
-                
+
                 .profile-left {
                     position: relative;
                     width: 25%;
@@ -50,7 +50,7 @@
                         font-size: 18px;
                         font-weight: 600;
                         text-align: center;
-                        
+
                         span {
                             font-family: "Cafe24Oneprettynight";
                             font-size: 35px;
@@ -62,7 +62,7 @@
                         font-size: 20px;
                         font-weight: 600;
                         text-align: center;
-                        background-color: #FFB1AD;
+                        background-color: #ffb1ad;
                         padding: 10px;
                     }
                 }
@@ -97,7 +97,6 @@
                             letter-spacing: -1px;
                         }
                     }
-      
                 }
                 .profile-right {
                     position: relative;
@@ -119,7 +118,7 @@
                             display: block;
                             font-size: 22px;
                             text-align: center;
-                           font-weight: 700;
+                            font-weight: 700;
                         }
                         img {
                             width: 100%;
@@ -132,24 +131,124 @@
     }
 }
 
-@media screen and (max-width: 930px) {
-    .profile-box {
-        min-width: 800px;
+@media screen and (max-width: 1440px) {
+    .middle-box {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 30px 35px !important;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .middle-box {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 25px 35px !important;
     }
 }
 
-// 데스크탑
-@media screen and (max-width: $desktop) {
+@media screen and (max-width: 1280px) {
+    .profile {
+        background: none !important;
+    }
 }
-// 타블렛
-@media screen and (max-width: $tablet) {
-}
-// 모바일
-@media screen and (max-width: $mp) {
-    .profile .contents {
-        flex-wrap: wrap !important;
+
+@media screen and (max-width: 1260px) {
+    .profile .inner .contents .profile-box {
+        display: flex;
+        // justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .profile-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-middle {
+        order: 1;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 2%;
+        .middle-box {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding: 25px 35px !important;
+        }
+    }
+
+    @media screen and (max-width: 1060px) {
+       .profile-box{
+        padding-top: 0 !important;
+       }
+        .profile-left {
+            img {
+                margin: 0 auto;
+                width: 150px !important;
+                height: 150px !important;
+                display: block;
+                margin-bottom: 30px;
+            }
+        }
+
+        .profile-middle {
+            .middle-box {
+                h4 {
+                    position: relative;
+                    display: block;
+                    font-size: 18px !important;
+                    font-weight: 700;
+                }
+                p {
+                    position: relative;
+                    display: block;
+                    font-size: 16px !important;
+                    line-height: 30px;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+    
+    }
+
+   
+
+    // @media screen and (max-width: 930px) {
+    //     .profile-box {
+    //         flex-wrap: wrap;
+    //         flex-direction: column;
+    //     }
+
+    //     .profile-left,
+    //     .profile-middle,
+    //     .profile-right {
+    //         margin: 10px 0;
+    //         align-items: center;
+    //     }
+    // }
+
+    @media screen and (max-width: 930px) {
         .profile-box {
-            width: 100% !important;
+            min-width: 800px;
+        }
+    }
+
+    // 데스크탑
+    @media screen and (max-width: $desktop) {
+    }
+    // 타블렛
+    @media screen and (max-width: $tablet) {
+    }
+    // 모바일
+    @media screen and (max-width: $mp) {
+        .profile .contents {
+            flex-wrap: wrap !important;
+            .profile-box {
+                width: 100% !important;
+            }
         }
     }
 }

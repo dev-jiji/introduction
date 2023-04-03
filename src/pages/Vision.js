@@ -57,14 +57,14 @@ const Vision = () => {
                             <div
                                 data-aos="flip-left"
                                 data-aos-duration="3000"
-                                class="vision-content aos-init aos-animate"
+                                className="vision-content aos-init aos-animate"
                             >
                                 <img src="../images/vision3.png" alt="나무" />
-                                <span class="vision-title">
+                                <span className="vision-title">
                                     <strong>5년 후,</strong> 경험이 풍부한
                                     개발자
                                 </span>
-                                <span class="vision-text">
+                                <span className="vision-text">
                                     저의 강점인 끈기와 책임감으로 포기하지 않고
                                     <br />
                                     쌓아온 경험을 바탕으로, 기술적인 문제를
