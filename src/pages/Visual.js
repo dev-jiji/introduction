@@ -19,7 +19,7 @@ const Visual = () => {
                 </div>
 
                 <div className="icon">
-                <a href="/introduction/이력서.pdf" download="">
+                    <a href={`${path}/이력서.pdf`} download>
                         <img
                             src={`${path}/images/resume.png`}
                             alt="git"
