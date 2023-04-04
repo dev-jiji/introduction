@@ -25,8 +25,8 @@
                     max-width: 500px;
                     background-color: #fff;
                     border-radius: 10px;
-                    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px,
-                        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 5px,
+                        rgba(0, 0, 0, 0.2) 0px 3px 3px;
 
                     .left-box {
                         position: absolute;
@@ -72,8 +72,8 @@
                     margin-left: 20px;
                     background-color: #fff;
                     border-radius: 10px;
-                    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px,
-                        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 5px,
+                        rgba(0, 0, 0, 0.2) 0px 3px 3px;
                     .middle-box {
                         position: relative;
                         display: block;
@@ -106,8 +106,8 @@
                     max-width: 500px;
                     background-color: #fff;
                     border-radius: 10px;
-                    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px,
-                        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 5px,
+                        rgba(0, 0, 0, 0.2) 0px 3px 3px;
                     .right-box {
                         position: relative;
                         top: 50%;
@@ -181,9 +181,9 @@
     }
 
     @media screen and (max-width: 1060px) {
-       .profile-box{
-        padding-top: 0 !important;
-       }
+        .profile-box {
+            padding-top: 0 !important;
+        }
         .profile-left {
             img {
                 margin: 0 auto;
@@ -211,10 +211,7 @@
                 }
             }
         }
-    
     }
-
-   
 
     // @media screen and (max-width: 930px) {
     //     .profile-box {

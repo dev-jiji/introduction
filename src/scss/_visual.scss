@@ -16,18 +16,24 @@
                 padding-top: 10%;
                 letter-spacing: 2px;
                 color: rgba($color: #25252e, $alpha: 0.8);
+                text-shadow: 1px 1px 1px white;
                 margin-bottom: 300px;
             }
             b {
                 color: #e31a5a;
                 font-size: 65px;
+                opacity: 0.9;
             }
             span {
                 font-size: 66px;
                 font-weight: 600;
                 margin-right: 2px;
                 color: #25252e;
+                opacity: 0.9;
             }
+        }
+        .icon img{
+            opacity: 0.8;
         }
 
         .visual-txt h2 {
@@ -66,20 +72,23 @@
         background: url("../../public/images/background1-1.png") no-repeat;
         background-position: center;
         background-size: cover;
-        .visual-txt {
-            h2 {
-                height: 100px;
-                font-size: 30px !important;
-                font-weight: 700 !important;
-                padding-top: 35% !important;
-            }
-            b {
-                font-size: 50px !important;
-            }
-            span {
-                font-size: 60px !important;
-                font-weight: 600;
-            }
+        opacity: black 0.8;
+
+        .visual-txt  {
+                h2 {
+                 
+                    height: 100px;
+                    font-size: 30px !important;
+                    font-weight: 700 !important;
+                    padding-top: 35% !important;
+                }
+                b {
+                    font-size: 45px !important;
+                }
+                span {
+                    font-size: 50px !important;
+                    font-weight: 600;
+                }
         }
     }
 }

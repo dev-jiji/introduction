@@ -17,14 +17,15 @@ const Visual = () => {
                         입니다.
                     </h2>
                 </div>
-                
-                <div className="icon">
-                    <img
-                        src={`${path}/images/resume.png`}
-                        alt="git"
-                        style={{ width: "6%", height: "6%" }}
-                    />
 
+                <div className="icon">
+                <a href="/introduction/resume.pdf" download="">
+                        <img
+                            src={`${path}/images/resume.png`}
+                            alt="git"
+                            style={{ width: "6%", height: "6%" }}
+                        />
+                    </a>
                     <a
                         href="https://github.com/dev-jiji"
                         target="_blank"
