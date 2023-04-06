@@ -16,6 +16,11 @@
     font-weight: normal;
     font-style: normal;
 }
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+.nanumpenscript * {
+    font-family: "Nanum Pen Script", cursive;
+}
 // 반응형
 $desktop: 1180px;
 $tablet: 960px;

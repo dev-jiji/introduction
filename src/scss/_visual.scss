@@ -32,8 +32,18 @@
                 opacity: 0.9;
             }
         }
-        .icon img{
+        .icon img {
             opacity: 0.8;
+        }
+        .icon button {
+            font-family: "Nanum Pen Script", cursive;
+            border: none;
+            cursor: pointer;
+            background: linear-gradient(to right, #e7bad4 95%, #db7bb3 5%);
+            color: #25252e;
+            padding: 5px;
+            font-size: 20px;
+            transform: rotate(20deg);
         }
 
         .visual-txt h2 {
@@ -74,21 +84,23 @@
         background-size: cover;
         opacity: black 0.8;
 
-        .visual-txt  {
-                h2 {
-                 
-                    height: 100px;
-                    font-size: 30px !important;
-                    font-weight: 700 !important;
-                    padding-top: 35% !important;
-                }
-                b {
-                    font-size: 45px !important;
-                }
-                span {
-                    font-size: 50px !important;
-                    font-weight: 600;
-                }
+        .visual-txt {
+            h2 {
+                height: 100px;
+                font-size: 30px !important;
+                font-weight: 700 !important;
+                padding-top: 35% !important;
+            }
+            b {
+                font-size: 45px !important;
+            }
+            span {
+                font-size: 50px !important;
+                font-weight: 600;
+            }
+        }
+        .icon button {
+            font-size: 50% !important;
         }
     }
 }
