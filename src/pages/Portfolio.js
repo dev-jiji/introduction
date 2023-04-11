@@ -35,7 +35,8 @@ const Portfolio = () => {
                                 <ul className="portfolio-team-list">
                                     <li className="object">배달대 </li>
                                     <li className="goal">
-                                        '배달대는 배달비 0원'
+                                        '배달대는 배달비 0원' ( Spring Boot
+                                        Back-End 와 협업 )
                                     </li>
                                     <li className="date">
                                         <span style={{ fontWeight: 600 }}>
@@ -48,6 +49,17 @@ const Portfolio = () => {
                                             참여인원
                                         </span>
                                         <span>3명</span>
+                                    </li>
+                                    <li className="platform">
+                                        <span style={{ fontWeight: 600 }}>
+                                            개발 플랫폼
+                                        </span>
+                                        <span>
+                                            FE - React
+                                            <br />
+                                            BE - Spring Boot <br />
+                                            REST API
+                                        </span>
                                     </li>
                                     <li className="contribute">
                                         <span style={{ fontWeight: 600 }}>
@@ -136,7 +148,8 @@ const Portfolio = () => {
                                     <li className="object">허니머니 </li>
                                     <li className="goal">
                                         '서로의 믿음과 신뢰를 위한 커플들의 통장
-                                        관리'
+                                        관리' <br />( Spring Boot Back-End 와
+                                        협업 )
                                     </li>
                                     <li className="date">
                                         <span style={{ fontWeight: 600 }}>
@@ -149,6 +162,17 @@ const Portfolio = () => {
                                             참여인원
                                         </span>
                                         <span>3명</span>
+                                    </li>
+                                    <li className="platform">
+                                        <span style={{ fontWeight: 600 }}>
+                                            개발 플랫폼
+                                        </span>
+                                        <span>
+                                            FE - React
+                                            <br />
+                                            BE - Spring Boot <br />
+                                            REST API
+                                        </span>
                                     </li>
                                     <li className="contribute">
                                         <span style={{ fontWeight: 600 }}>
@@ -220,27 +244,28 @@ const Portfolio = () => {
 
                         <div className="portfolio-team">
                             <div className="portfolio-left">
-                                <img
+                                {/* <img
                                     src={`${path}/images/3th.png`}
                                     alt=""
                                     style={{ width: 700, height: 400 }}
-                                />
-                                {/* <iframe
+                                /> */}
+                                <iframe
                                     width="700"
                                     height="400"
-                                    src="https://www.youtube.com/embed/grLY0o287xQ"
-                                    title="SKYcastle"
-                                    frameborder="0"
+                                    src="https://www.youtube.com/embed/KPouwdJAt54"
+                                    title="NCT 학원"
+                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen
-                                ></iframe> */}
+                                    allowFullScreen
+                                ></iframe>
                             </div>
                             <div className="portfolio-right">
                                 <ul className="portfolio-team-list">
-                                    <li className="object">SKYcastle </li>
+                                    <li className="object">NCT 학원 </li>
                                     <li className="goal">
                                         '고3 학생들의 영어 성적 향상을 위한
-                                        관리'
+                                        관리' <br />( Spring Boot Back-End 와
+                                        협업 )
                                     </li>
                                     <li className="date">
                                         <span style={{ fontWeight: 600 }}>
@@ -253,6 +278,17 @@ const Portfolio = () => {
                                             참여인원
                                         </span>
                                         <span>5명</span>
+                                    </li>
+                                    <li className="platform">
+                                        <span style={{ fontWeight: 600 }}>
+                                            개발 플랫폼
+                                        </span>
+                                        <span>
+                                            FE - React
+                                            <br />
+                                            BE - Spring Boot <br />
+                                            REST API
+                                        </span>
                                     </li>
                                     <li className="contribute">
                                         <span style={{ fontWeight: 600 }}>
@@ -275,6 +311,10 @@ const Portfolio = () => {
                                             <img
                                                 src={`${path}/images/skill-js.png`}
                                                 alt="js"
+                                            />
+                                            <img
+                                                src={`${path}/images/skill-type.png`}
+                                                alt="ts"
                                             />
                                             <img
                                                 src={`${path}/images/skill-redux2.png`}
@@ -329,7 +369,16 @@ const Portfolio = () => {
                             loop={true}
                             slidesPerView={1}
                             spaceBetween={0}
-                            pagination={true}
+                            pagination={{
+                                clickable: true,
+                                renderBullet: function (index, className) {
+                                    return (
+                                        '<span class="' +
+                                        className +
+                                        '" style="width: 15px; height: 15px;"></span>'
+                                    );
+                                },
+                            }}
                             navigation={true}
                             breakpoints={{
                                 860: {
@@ -350,13 +399,13 @@ const Portfolio = () => {
                         >
                             <SwiperSlide>
                                 <a
-                                    href="https://dev-jiji.github.io/stx/"
+                                    href="https://introduction-sigma.vercel.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
                                 >
                                     <img
-                                        src={`${path}/images/stx.png`}
+                                        src={`${path}/images/profile.png`}
                                         alt="portfolio"
                                     />
                                 </a>
@@ -376,6 +425,34 @@ const Portfolio = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
+                                    href="https://dev-jiji.github.io/hyundai-clone/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    alt="portfolio"
+                                >
+                                    <img
+                                        src={`${path}/images/hyundai.png`}
+                                        alt="portfolio"
+                                    />
+                                </a>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <a
+                                    href="https://ts-todo-sepia.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    alt="portfolio"
+                                >
+                                    <img
+                                        src={`${path}/images/todo.png`}
+                                        alt="portfolio"
+                                    />
+                                </a>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <a
                                     href="https://dev-jiji.github.io/ee/"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -389,39 +466,26 @@ const Portfolio = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
-                                    href="https://dev-jiji.github.io/hyundai-clone/"
+                                    href="https://next-pl-two.vercel.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
                                 >
                                     <img
-                                        src={`${path}/images/hyundai.png`}
+                                        src={`${path}/images/nextjs.png`}
                                         alt="portfolio"
                                     />
                                 </a>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <a
-                                    href="https://github.com/dev-jiji/ts-todo.git"
+                                    href="https://dev-jiji.github.io/stx/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="portfolio"
                                 >
                                     <img
-                                        src={`${path}/images/todo.png`}
-                                        alt="portfolio"
-                                    />
-                                </a>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <a
-                                    href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    alt="portfolio"
-                                >
-                                    <img
-                                        src={`${path}/images/sample.png`}
+                                        src={`${path}/images/stx.png`}
                                         alt="portfolio"
                                     />
                                 </a>

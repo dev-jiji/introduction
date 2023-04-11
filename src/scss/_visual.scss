@@ -77,7 +77,33 @@
     }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1041px) {
+    .visual {
+        height: 847px;
+        min-height: 847px;
+
+        .visual-txt {
+            h2 {
+                height: 100px;
+                font-size: 40px !important;
+                font-weight: 700 !important;
+                padding-top: 20% !important;
+            }
+            b {
+                font-size: 45px !important;
+            }
+            span {
+                font-size: 50px !important;
+                font-weight: 600;
+            }
+        }
+        // .icon button {
+        //     font-size: 50% !important;
+        // }
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .visual {
         background: url("../../public/images/background1-1.png") no-repeat;
         background-position: center;
@@ -107,7 +133,9 @@
 @media screen and (max-width: 980px) {
     .visual {
         width: 972px;
+        min-width: 972px;
         height: 1022px;
+        min-height: 1022px;
     }
     .visual .inner {
         width: 974px;
