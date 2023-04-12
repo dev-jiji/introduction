@@ -22,7 +22,7 @@ const Visual = () => {
                 </div>
                 
                 <div className="icon">
-                    <a href={`${path}/이력서.pdf`} download>
+                    <a href={`${path}/resume.pdf`} download>
                     <button style={{position:"absolute",top:"90%",left:"-20px"}}>
                             DownLoad
                             {/* <FontAwesomeIcon icon={faDownload} style={{marginLeft:"12px"}}/> */}
