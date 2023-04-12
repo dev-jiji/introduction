@@ -4,15 +4,12 @@
             margin-top: 30px;
             .vision-list {
                 display: flex;
-                // flex-wrap: wrap;
                 justify-content: space-between;
                 align-items: center;
                 text-align: left;
-
                 li {
                     margin-bottom: 20px;
                 }
-
                 .vision-content {
                     position: relative;
                     width: 380px;
@@ -33,7 +30,6 @@
                     vertical-align: middle;
                     border: 0;
                 }
-
                 .vision-title {
                     position: relative;
                     display: block;
@@ -58,7 +54,7 @@
 
 @media screen and (max-width: 1260px) {
     .vision-list {
-       flex-direction: column;
+        flex-direction: column;
     }
 }
 
@@ -70,7 +66,4 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-    // .vision-list {
-    //     flex-wrap: wrap;
-    // }
 }

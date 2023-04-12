@@ -40,7 +40,6 @@ const Header = ({ setPage, setOpen, open, setHeaderBg, headerActive }) => {
                                 borderRadius: 100,
                                 marginRight: "8px",
                             }}
-                            // onClick={() => goTop()}
                         />
                         Dev-JEO
                     </span>

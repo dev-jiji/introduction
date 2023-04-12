@@ -7,7 +7,6 @@ const Life = () => {
             <div className="inner">
                 <h2>Life</h2>
                 <div className="contents">
-                    {/* 나의 대외활동, 취미, 회사 대표가 바라는 인재상 */}
                     <ul className="life-list">
                         <li>
                             <div

@@ -42,7 +42,6 @@ const App = () => {
         pos.current = [];
         // 3. 각 section 위치값을 파악해서 저장한다.
         const secs = main.current.querySelectorAll(".scroll");
-
         for (const item of secs) {
             // 각 영역의 스크롤 픽셀 위치값
             pos.current.push(item.offsetTop);
@@ -55,7 +54,6 @@ const App = () => {
             setOpen(false);
         }
     };
-
     // 6. header 의 메뉴를 클릭시 페이지 번호 전달.
     const [page, setPage] = useState(0);
     useEffect(() => {
@@ -69,7 +67,6 @@ const App = () => {
         });
         console.log(main.current);
     }, [page]);
-
     useEffect(() => {
         // const headerBg = header.current;
         // 1. 최초 section 스크롤 위치값을 파악
@@ -83,7 +80,6 @@ const App = () => {
             window.removeEventListener("scroll", getPos);
         };
     }, []);
-
     // 모바일 메뉴 펼치기 상태관리
     const [open, setOpen] = useState(false);
     return (
@@ -99,7 +95,6 @@ const App = () => {
                 headerActive={headerActive}
             />
             <MobileMenu setPage={setPage} setOpen={setOpen} open={open} />
-
             <div className="container">
                 <Visual />
                 <Profile />

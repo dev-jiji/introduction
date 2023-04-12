@@ -12,13 +12,11 @@ const Portfolio = () => {
     return (
         <section className="portfolio scroll">
             <div className="inner">
-                {/* 개발 담당자 : 팀프로젝트, 개인 작업(5개 목표(퍼블리싱 -> 프론트)) */}
                 <h2 data-aos="fade-up">Portfolio</h2>
                 <div className="contents">
                     {/* 팀 프로젝트 */}
                     <div className="portfolio-box">
                         <h3>Team Project</h3>
-
                         <div className="portfolio-team">
                             <div className="portfolio-left">
                                 <iframe
@@ -72,7 +70,6 @@ const Portfolio = () => {
                                             리뷰등록, 아낀 배달비
                                         </p>
                                     </li>
-
                                     <li className="program">
                                         <span style={{ fontWeight: 600 }}>
                                             사용 프로그램
@@ -183,7 +180,6 @@ const Portfolio = () => {
                                             삭제), 차트 통계
                                         </p>
                                     </li>
-
                                     <li className="program">
                                         <span style={{ fontWeight: 600 }}>
                                             사용 프로그램
@@ -211,7 +207,6 @@ const Portfolio = () => {
                                             />
                                         </span>
                                     </li>
-
                                     <li>
                                         <span
                                             style={{
@@ -221,7 +216,6 @@ const Portfolio = () => {
                                         >
                                             작업물 보기
                                         </span>
-
                                         <a
                                             href="hhttps://github.com/dev-jiji/accountbook.git"
                                             target="_blank"
@@ -244,11 +238,6 @@ const Portfolio = () => {
 
                         <div className="portfolio-team">
                             <div className="portfolio-left">
-                                {/* <img
-                                    src={`${path}/images/3th.png`}
-                                    alt=""
-                                    style={{ width: 700, height: 400 }}
-                                /> */}
                                 <iframe
                                     width="700"
                                     height="400"
@@ -298,7 +287,6 @@ const Portfolio = () => {
                                             게시판 (리스트, 등록, 디테일, 리뷰)
                                         </p>
                                     </li>
-
                                     <li className="program">
                                         <span style={{ fontWeight: 600 }}>
                                             사용 프로그램
@@ -330,7 +318,6 @@ const Portfolio = () => {
                                             />
                                         </span>
                                     </li>
-
                                     <li>
                                         <span
                                             style={{
@@ -340,7 +327,6 @@ const Portfolio = () => {
                                         >
                                             작업물 보기
                                         </span>
-
                                         <a
                                             href="https://github.com/dev-jiji/skycastle.git"
                                             target="_blank"
@@ -436,7 +422,6 @@ const Portfolio = () => {
                                     />
                                 </a>
                             </SwiperSlide>
-
                             <SwiperSlide>
                                 <a
                                     href="https://ts-todo-sepia.vercel.app/"
@@ -450,7 +435,6 @@ const Portfolio = () => {
                                     />
                                 </a>
                             </SwiperSlide>
-
                             <SwiperSlide>
                                 <a
                                     href="https://dev-jiji.github.io/ee/"

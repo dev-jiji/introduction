@@ -45,20 +45,17 @@
             font-size: 20px;
             transform: rotate(20deg);
         }
-
         .visual-txt h2 {
             opacity: 0;
             transform: translateY(100%);
             animation: slide-up 1s ease-in-out forwards 0.3s;
         }
-
         @keyframes slide-up {
             to {
                 opacity: 1;
                 transform: translateY(0%);
             }
         }
-
         .icon {
             opacity: 0;
             transform: translateY(100%);
@@ -67,7 +64,6 @@
                 margin-right: 60px;
             }
         }
-
         @keyframes slide-up {
             to {
                 opacity: 1;
@@ -81,7 +77,6 @@
     .visual {
         height: 847px;
         min-height: 847px;
-
         .visual-txt {
             h2 {
                 height: 100px;
@@ -97,9 +92,6 @@
                 font-weight: 600;
             }
         }
-        // .icon button {
-        //     font-size: 50% !important;
-        // }
     }
 }
 
@@ -109,7 +101,6 @@
         background-position: center;
         background-size: cover;
         opacity: black 0.8;
-
         .visual-txt {
             h2 {
                 height: 100px;

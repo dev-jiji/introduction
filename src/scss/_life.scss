@@ -3,13 +3,8 @@
         .contents {
             width: 100%;
             .life-list {
-                // display: flex;
-                // flex-wrap: wrap;
-                // justify-content: space-between;
-                // align-items: center;
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-
                 li {
                     text-align: center;
                     margin-bottom: 200px;
@@ -29,7 +24,6 @@
                         padding-top: 12px;
                         margin-bottom: 200px;
                         transition: all 0.3s;
-
                         &:hover {
                             transform: scale(1.1) rotate(8deg);
                         }
@@ -69,7 +63,4 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-    // .life-list {
-    //     grid-template-columns: repeat(2, 1fr) !important;
-    // }
 }

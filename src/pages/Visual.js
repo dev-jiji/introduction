@@ -1,7 +1,4 @@
 import React from "react";
-// FontAwesome
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Visual = () => {
     const path = process.env.PUBLIC_URL;
@@ -25,7 +22,6 @@ const Visual = () => {
                     <a href={`${path}/resume.pdf`} download>
                     <button style={{position:"absolute",top:"90%",left:"-20px"}}>
                             DownLoad
-                            {/* <FontAwesomeIcon icon={faDownload} style={{marginLeft:"12px"}}/> */}
                         </button>
                         <img
                             src={`${path}/images/resume.png`}

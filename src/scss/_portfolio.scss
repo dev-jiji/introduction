@@ -1,7 +1,6 @@
 .portfolio {
     background: url("../../public/images/bg-5.png") no-repeat;
     background-position: 0 -18%;
-
     .inner {
         h2 {
             font-size: 0;
@@ -32,7 +31,6 @@
                     background: #fff;
                     padding: 50px 10px;
                     border-radius: 10px;
-
                     .portfolio-left {
                         width: calc(60% - 70px);
                         text-align: center;
@@ -88,20 +86,13 @@
                         margin-right: 10px;
                     }
                 }
-
                 .portfolio-slide {
-                    // .swiper-button-next,
-                    // .swiper-rtl .swiper-button-prev {
-                    //     color: #fff !important;
-                    // }
-                  
                     .swiper-button-next,
                     .swiper-button-prev {
                         color: hotpink !important;
                         background: #131313;
                         padding: 30px;
                         border-radius: 100%;
-
                     }
                     .swiper-pagination-bullet-active {
                         background: #ff69b4;
@@ -127,7 +118,6 @@
         background-position: 50% -20%;
     }
 }
-
 @media screen and (max-width: 1280px) {
     .portfolio-left,
     .portfolio-right {
@@ -135,7 +125,6 @@
         flex-wrap: wrap;
     }
 }
-
 @media screen and (max-width: 980px) {
     .portfolio {
         background: none;

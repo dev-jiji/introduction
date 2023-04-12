@@ -2,11 +2,9 @@ import React from "react";
 
 const Skills = () => {
     const path = process.env.PUBLIC_URL;
-
     return (
         <section className="skills scroll">
             <div className="inner">
-                {/* 기술적 역량 : 기술적 내용 설명, 자격증, 운전면허 등 */}
                 <h2>Skills</h2>
                 <div className="contents">
                     <ul className="skills-list">
@@ -87,7 +85,6 @@ const Skills = () => {
                                 </div>
                             </div>
                         </li>
-
                         <li>
                             <div className="skill-item">
                                 <img
@@ -107,7 +104,6 @@ const Skills = () => {
                                 </div>
                             </div>
                         </li>
-
                         <li>
                             <div className="skill-item">
                                 <img
